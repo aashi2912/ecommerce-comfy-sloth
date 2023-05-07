@@ -1,0 +1,48 @@
+.App {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-links {
+  padding: 0.5rem;
+  font-size: 1rem;
+  text-transform: capitalize;
+  border-bottom: 2px solid transparent;
+  font-size: 1.1rem;
+  width: fit-content;
+}
+
+.nav-links:hover {
+  border-bottom: 2px solid var(--clr-primary-7);
+}
+
+.breadcrumb-item {
+  color: var(--clr-primary-3);
+  transition: var(--transition);
+}
+
+.chakra-breadcrumb__link:hover {
+  text-decoration: none !important;
+  color: var(--clr-primary-1);
+}
+
+.active {
+  color: var(--clr-primary-1) !important;
+  border-bottom-color: var(--clr-primary-1) !important;
+  width: fit-content;
+}
+
+.filter-btn {
+  cursor: pointer;
+  color: var(--clr-grey-4);
+  display: block;
+  text-transform: capitalize;
+  background: transparent;
+  border-bottom: 2px solid transparent;
+  letter-spacing: var(--spacing);
+}
+
+input[type="range"] {
+  accent-color: var(--clr-primary-5);
+}
